@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class LightSwitch : MonoBehaviour
 {
-    public Light light;
-    // Use this for initialization
+    public new Light light;
     void Start()
     {
         light = GetComponent<Light>();

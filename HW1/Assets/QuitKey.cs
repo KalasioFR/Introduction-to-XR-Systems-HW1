@@ -18,8 +18,4 @@ public class QuitKey : MonoBehaviour
             #endif
         };
     }
-    void Update()
-    {
-        
-    }
 }

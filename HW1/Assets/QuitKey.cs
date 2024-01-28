@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class QuitKey : MonoBehaviour
 {
     public InputActionReference action;
+    
     void Start()
     {
         action.action.Enable();
